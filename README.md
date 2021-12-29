@@ -1,2 +1,2 @@
-# topics-in-r
-A repository of R code and reports for various data analysis topics. 
+# Parallel Processing in R
+A basic tutorial on how to implement parallel processing in R.  
