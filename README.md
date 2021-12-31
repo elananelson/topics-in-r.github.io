@@ -1,2 +1,2 @@
-# Parallel Processing in R
-A basic tutorial on how to implement parallel processing in R.  
+# Topics in R
+This repository features tutorials and exercises of data analysis in the R programming language covering a range of topics.  
