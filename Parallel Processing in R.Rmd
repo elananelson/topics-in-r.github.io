@@ -346,7 +346,7 @@ system.time({
 
 ```
 
-The *lapply* function has slightly decreased performance time. However, this decrease is very marginal. Although in some situations vectorization via *apply* leads to quicker results, it generally performs similarly to a *for* loop This is because the *for* loop has been drastically optimized by its developers to address this issue of processing time differences. So, in a way, it is kind of a myth that the *apply* function is faster. It is, however, definitely cleaner code. 
+The *lapply* function has slightly decreased performance time. However, this decrease is very marginal. Although in some situations vectorization via *apply* leads to quicker results, it generally performs similarly to a *for* loop. This is because the *for* loop has been drastically optimized by its developers to address this issue of processing time differences. So, in a way, it is kind of a myth that the *apply* function is faster. It is, however, definitely cleaner code. 
 
 ### Parallelization
 
@@ -364,7 +364,7 @@ system.time({
     boots <- seq(1, 1000)
     
     #export necessary variables so function can see them
-    clusterExport(cluster, c("boots","kidney.dat"))
+    clusterExport(cluster, c("boots","kidney.dat"), envir = environment())
     #export necessary libraries so function can see them
     clusterEvalQ(cluster, 
                  c(library(MASS), library(broom)))
