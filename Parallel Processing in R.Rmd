@@ -7,12 +7,12 @@ title: "Parallel Processing in R"
 #  output_file=file.path(dirname(input_file), out_dir, 'parallel-processing-in-r.html'))})
 author: "Elana Nelson"
 date: "20 Dec 2019"
-output:
-  html_document:
-    df_print: paged
-    fig_caption: yes
-    includes:
-      in_header: hold_fig_pos.tex
+# output:
+#   html_document:
+#     df_print: paged
+#     fig_caption: yes
+#     includes:
+#       in_header: hold_fig_pos.tex
 
 ---
 ```{r setup, include=FALSE}
