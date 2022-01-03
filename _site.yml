@@ -1,4 +1,4 @@
-name: "Topics in R"
+name: "topics-in-r"
 output_dir: "docs"
 navbar:
   title: "Topics in R"
@@ -9,4 +9,4 @@ navbar:
    href: Parallel-Processing-in-R.html
 output:
   html_document:
-    theme: cosmo
+    theme: leap-day
