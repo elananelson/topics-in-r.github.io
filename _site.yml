@@ -9,4 +9,4 @@ navbar:
    href: Parallel-Processing-in-R.html
 output:
   html_document:
-    theme: leap-day
+    theme: cosmo
