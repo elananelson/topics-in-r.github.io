@@ -1,0 +1,13 @@
+---
+title: "Welcome"
+author: "Elana Nelson"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Welcome
+
+## Well hey there...
