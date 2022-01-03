@@ -1,0 +1,12 @@
+name: "Topics in R"
+output_dir: "docs"
+navbar:
+  title: "Topics in R"
+  left:
+  - text: "Home"
+   href: index.html
+  - text: "Parallel Processing"
+   href: Parallel-Processing-in-R.html
+output:
+  html_document:
+    theme: cosmo
